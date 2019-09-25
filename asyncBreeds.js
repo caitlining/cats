@@ -12,4 +12,19 @@ const breedDetailsFromFile = function(breed, callbackFunc) {
   });
 }
 
+// const tellMeWhatIsInYou = function(theThing) {
+//   console.log(theThing, '\n');
+// };
+
+// const yellMeWhatIsInYou = function(theThing) {
+//   console.log(theThing.toUpperCase(), '\n');
+// };
+
+// breedDetailsFromFile('Bombay', tellMeWhatIsInYou);
+// breedDetailsFromFile('Balinese', yellMeWhatIsInYou);
+
+
+
+
+
 module.exports = breedDetailsFromFile;
